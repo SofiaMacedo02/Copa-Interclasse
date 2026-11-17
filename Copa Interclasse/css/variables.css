@@ -1,0 +1,73 @@
+/* ==========================================================================
+   VARGAS LTDA - DESIGN TOKENS & VARIABLES
+   ========================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700;800&display=swap');
+
+:root {
+  /* --- Paleta de Cores: Identidade --- */
+  --color-primary: #E5AE12;          /* Amarelo Ouro / Quadra */
+  --color-primary-hover: #C9960C;    /* Amarelo Escuro (Hover) */
+  --color-primary-light: #FDF6E2;    /* Fundo suave de destaque */
+
+  --color-secondary: #0E3C96;        /* Azul Royal Esportivo */
+  --color-secondary-hover: #0B2E73;  /* Azul Royal (Hover) */
+  --color-navy: #081F4D;             /* Azul Marinho Profundo (Footer / Dark) */
+
+  /* --- Paleta de Cores: Neutras --- */
+  --color-black: #0D0D0D;            /* Preto Contorno / Textos principais */
+  --color-white: #FFFFFF;            /* Branco puro (Cards) */
+  --color-bg: #F8FAFC;               /* Branco Gelo (Fundo da página) */
+  --color-surface: #FFFFFF;          /* Superfície de componentes */
+  
+  --color-gray-100: #F1F5F9;
+  --color-gray-200: #E2E8F0;         /* Bordas sutis */
+  --color-gray-500: #64748B;         /* Textos secundários / legendas */
+  --color-gray-700: #334155;         /* Textos de apoio */
+
+  /* --- Cores Semânticas (Status de Jogos) --- */
+  --color-live: #E5AE12;             /* Jogo Ao Vivo */
+  --color-scheduled: #0E3C96;        /* Jogo Agendado */
+  --color-finished: #64748B;         /* Jogo Encerrado */
+  --color-success: #16A34A;          /* Vitória / Confirmado */
+  --color-danger: #DC2626;           /* Derrota / Cancelado */
+
+  /* --- Tipografia --- */
+  --font-display: 'Montserrat', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* Tamanhos de Fonte */
+  --text-xs: 0.75rem;      /* 12px */
+  --text-sm: 0.875rem;     /* 14px */
+  --text-base: 1rem;       /* 16px */
+  --text-lg: 1.125rem;     /* 18px */
+  --text-xl: 1.25rem;      /* 20px */
+  --text-2xl: 1.5rem;      /* 24px */
+  --text-3xl: 2rem;        /* 32px */
+  --text-4xl: 2.5rem;      /* 40px */
+
+  /* --- Espaçamentos --- */
+  --space-1: 0.25rem;      /* 4px */
+  --space-2: 0.5rem;       /* 8px */
+  --space-3: 0.75rem;      /* 12px */
+  --space-4: 1rem;         /* 16px */
+  --space-6: 1.5rem;       /* 24px */
+  --space-8: 2rem;         /* 32px */
+  --space-12: 3rem;        /* 48px */
+  --space-16: 4rem;        /* 64px */
+
+  /* --- Layout & Bordas --- */
+  --container-max: 1200px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+
+  --border-subtle: 1px solid var(--color-gray-200);
+  --border-bold: 2px solid var(--color-black); /* Remete ao traço da logo */
+
+  /* --- Sombras & Transições --- */
+  --shadow-sm: 0 1px 3px rgba(8, 31, 77, 0.08);
+  --shadow-md: 0 4px 12px rgba(8, 31, 77, 0.12);
+  --transition-fast: 150ms ease-in-out;
+  --transition-normal: 250ms ease-in-out;
+}
